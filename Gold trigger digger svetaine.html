@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="UTF-8">
+    <title>Augustas Labanauskas | Kelionės</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8;
+        }
+
+        header {
+            background-image: url('https://images.unsplash.com/photo-1469854523086-cc02fe5d8800');
+            background-size: cover;
+            background-position: center;
+            height: 350px;
+            color: white;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            padding-top: 120px;
+            font-size: 50px;
+            background-color: rgba(0,0,0,0.6);
+            display: inline-block;
+            padding: 15px 25px;
+            border-radius: 10px;
+        }
+
+        nav {
+            background-color: #1e2a38;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #ffcc00;
+        }
+
+        section {
+            padding: 50px;
+            margin: 20px;
+            border-radius: 12px;
+        }
+
+        #apie {
+            background-color: #e3f2fd;
+        }
+
+        #galerija {
+            background-color: #fff8e1;
+        }
+
+        #kontaktai {
+            background-color: #e8f5e9;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        .container {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .text {
+            flex: 1;
+        }
+
+        .image {
+            flex: 1;
+        }
+
+        .image img {
+            width: 100%;
+            border-radius: 12px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.08);
+        }
+
+        footer {
+            background-color: #1e2a38;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Augustas Labanauskas – Mano kelionės</h1>
+</header>
+
+<nav>
+    <a href="#apie">Apie</a>
+    <a href="#galerija">Galerija</a>
+    <a href="#kontaktai">Kontaktai</a>
+</nav>
+
+<section id="apie">
+    <h2>Apie</h2>
+
+    <div class="container">
+        <div class="text">
+            <p>Aš esu Augustas Labanauskas ir labai mėgstu keliauti bei atrasti naujas vietas. Kelionės man suteikia galimybę pažinti skirtingas kultūras ir žmones. Man patinka lankyti tiek didelius miestus, tiek gamtos kampelius. Kiekviena kelionė man palieka daug įspūdžių ir naujų patirčių. Taip pat mėgstu fotografuoti gražiausius vaizdus ir juos išsaugoti prisiminimui.</p>
+        </div>
+
+        <div class="image">
+            <img src="https://source.unsplash.com/500x400/?travel">
+        </div>
+    </div>
+</section>
+
+<section id="galerija">
+    <h2>Galerija</h2>
+
+    <div class="gallery">
+        <img src="https://source.unsplash.com/400x300/?travel,1">
+        <img src="https://source.unsplash.com/400x300/?travel,2">
+        <img src="https://source.unsplash.com/400x300/?travel,3">
+        <img src="https://source.unsplash.com/400x300/?travel,4">
+        <img src="https://source.unsplash.com/400x300/?travel,5">
+        <img src="https://source.unsplash.com/400x300/?travel,6">
+        <img src="https://source.unsplash.com/400x300/?travel,7">
+        <img src="https://source.unsplash.com/400x300/?travel,8">
+        <img src="https://source.unsplash.com/400x300/?travel,9">
+        <img src="https://source.unsplash.com/400x300/?travel,10">
+    </div>
+</section>
+
+<section id="kontaktai">
+    <h2>Kontaktai</h2>
+
+    <p><b>El. paštas:</b> augustas.labanauskas@email.com</p>
+    <p><b>Adresas:</b> Vilniaus g. 10, Šiauliai</p>
+    <p><b>Google Maps:</b> 
+        <a href="https://www.google.com/maps" target="_blank">Atidaryti žemėlapį</a>
+    </p>
+    <p><b>Instagram:</b> 
+        <a href="https://instagram.com" target="_blank">instagram.com/augustas_keliones</a>
+    </p>
+</section>
+
+<footer>
+    <p>© 2026 Augustas Labanauskas. Visos teisės saugomos.</p>
+</footer>
+
+</body>
+</html>
